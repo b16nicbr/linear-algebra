@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/products {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 0 s, completed 7 Jan 2023, 21:35:02
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

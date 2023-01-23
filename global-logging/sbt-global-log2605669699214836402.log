@@ -1,0 +1,34 @@
+[debug] > Exec(all {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/products {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[error] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\Vec.scala:144:52: overloaded method + with alternatives:
+[error]   (x: Double)Double <and>
+[error]   (x: Float)Double <and>
+[error]   (x: Long)Double <and>
+[error]   (x: Int)Double <and>
+[error]   (x: Char)Double <and>
+[error]   (x: Short)Double <and>
+[error]   (x: Byte)Double <and>
+[error]   (x: String)String
+[error]  cannot be applied to (linalg.Lista[linalg.Vec])
+[error]       case Cons( head, Emp ) => plus( x, vec,  head+resultVec.data  )
+[error]                                                    ^
+[error] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\Vec.scala:145:59: overloaded method + with alternatives:
+[error]   (x: Double)Double <and>
+[error]   (x: Float)Double <and>
+[error]   (x: Long)Double <and>
+[error]   (x: Int)Double <and>
+[error]   (x: Char)Double <and>
+[error]   (x: Short)Double <and>
+[error]   (x: Byte)Double <and>
+[error]   (x: String)String
+[error]  cannot be applied to (linalg.Lista[linalg.Vec])
+[error]       case Cons( head, tail ) => plus( x.tail, tail,  head+resultVec.data )
+[error]                                                           ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 17 Jan 2023, 21:34:49
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

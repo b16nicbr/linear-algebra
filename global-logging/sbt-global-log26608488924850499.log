@@ -1,0 +1,13 @@
+[debug] > Exec(all {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/products {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[error] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\Mat.scala:206:86: too many arguments (found 3, expected 2) for method transpose: (original: linalg.Lista[linalg.Vec], elem: Double): linalg.Lista[linalg.Vec]
+[error]       case Cons(head, tail) => Cons(head,transpose(original,tail.tail.head.data.head,tail))
+[error]                                                                                      ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 22 Jan 2023, 19:07:16
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

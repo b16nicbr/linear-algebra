@@ -1,0 +1,20 @@
+[debug] > Exec(all {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/products {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 4 Scala sources to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[error] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\package.scala:19:30: type mismatch;
+[error]  found   : Double
+[error]  required: String
+[error]     def +(x: Mat): Mat = x + n
+[error]                              ^
+[error] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\package.scala:21:28: value * is not a member of linalg.Mat
+[error]     def *(x: Mat): Mat = x * n
+[error]                            ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 17 Jan 2023, 21:29:20
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

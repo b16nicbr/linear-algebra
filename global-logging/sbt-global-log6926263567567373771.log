@@ -1,0 +1,14 @@
+[debug] > Exec(all {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/products {file:/C:/Users/Nicklas%20Branding/Desktop/linalg/}hello/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Nicklas Branding\Desktop\linalg\target\scala-2.13\classes ...
+[warn] C:\Users\Nicklas Branding\Desktop\linalg\src\main\scala\linalg\Vec.scala:221:67: match may not be exhaustive.
+[warn] It would fail on the following inputs: (Cons(_, Cons(_, _)), Emp), (Cons(_, Emp), Emp), (Emp, Cons(_, Cons(_, _))), (Emp, Cons(_, Emp))
+[warn]     def dotProd(ls1: Lista[Double], ls2: Lista[Double]): Double = (ls1, ls2) match {
+[warn]                                                                   ^
+[warn] one warning found
+[info] done compiling
+[success] Total time: 1 s, completed 23 Jan 2023, 22:00:41
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
